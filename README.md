@@ -4,11 +4,11 @@
 
 or
 
-`go get github.com/impin2rex/rate-limit-checker`
+`go install github.com/impin2rex/rate-limit-checker@latest`
 
 # Usage
 ```
-./rate \
+rate-limit-checker \
   --url "https://rpc.shyft.to?api_key=YOUR_API_KEY" \
   --method POST \
   --requests 500 \
